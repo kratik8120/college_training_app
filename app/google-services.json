@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "141709664675",
+    "project_id": "industrial-training-app-27765",
+    "storage_bucket": "industrial-training-app-27765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141709664675:android:d7d5e5dd99d8fef0df7a16",
+        "android_client_info": {
+          "package_name": "com.example.industrialtrainingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa5WIw6Or7cUU5AFsr8y7_USLMXKQSYr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

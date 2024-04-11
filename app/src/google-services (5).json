@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "550435398819",
+    "firebase_url": "https://industry-1bce9-default-rtdb.firebaseio.com",
+    "project_id": "industry-1bce9",
+    "storage_bucket": "industry-1bce9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550435398819:android:edde5b386cf8cf6cca0b16",
+        "android_client_info": {
+          "package_name": "com.example.industrialtrainingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMvuktJ027AbeP7XgkfNi5GQenopGkB0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

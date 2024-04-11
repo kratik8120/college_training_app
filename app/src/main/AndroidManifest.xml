@@ -13,7 +13,37 @@
         android:theme="@style/Theme.IndustrialTrainingApp"
         tools:targetApi="31">
         <activity
+            android:name=".thirdyear"
+            android:exported="false" />
+        <activity
+            android:name=".firstyear"
+            android:exported="false" />
+        <activity
+            android:name=".detailactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Recycler"
+            android:exported="false" />
+        <activity
+            android:name=".studentinfo"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".student_detail"
+            android:exported="false" />
+        <activity
+            android:name=".student_signup"
+            android:exported="false" />
+        <activity
+            android:name=".student_login"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +51,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

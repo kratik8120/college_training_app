@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g"
+    tools:context=".firstyear">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            tools:context=".studentinfo">
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Student Information"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"
+                    android:text="Name"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/ename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Enter the name"
+
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/roll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:text="Roll no"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/eroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edittext"
+
+                    android:padding="10dp"
+                    android:textSize="28sp"
+
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/baseline_123_24"
+                    android:ems="10"
+                    android:hint="Enter the rollno"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:text="Phone no"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/ephone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edittext"
+
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:layout_marginLeft="5dp"
+
+                    android:textSize="28sp"
+                    android:drawableLeft="@drawable/baseline_local_phone_24"
+                    android:hint="Enter the mobile no"
+                    android:inputType="phone"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:text="Mode"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/emode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edittext"
+
+                    android:padding="10dp"
+
+
+                    android:textSize="28sp"
+                    android:drawableLeft="@drawable/baseline_model_training_24"
+                    android:hint="Online/Offline"
+                    android:inputType="text"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:text="Url"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/eurl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:linksClickable="true"
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/baseline_add_link_24"
+
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+
+                    android:hint="Enter the URL"
+                    android:inputType="text"
+
+                    android:padding="10dp"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:text="Section"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/esec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edittext"
+
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/baseline_class_24"
+                    android:layout_marginLeft="5dp"
+                    android:hint="Enter the section"
+                    android:inputType="text"
+
+                    android:textSize="28sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/project"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:text="Project"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/eproj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/baseline_mobile_friendly_24"
+                    android:drawablePadding="10dp"
+
+                    android:ems="10"
+                    android:hint="Enter project name"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="ExtraText">
+
+                <TextView
+                    android:id="@+id/Duration"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:text="Duration"
+
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/enterduration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edittext"
+
+                    android:padding="10dp"
+                    android:textSize="28sp"
+                    android:drawableLeft="@drawable/baseline_access_time_24"
+                    android:ems="10"
+                    android:hint="Enter your Duration"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"
+                    android:text="Technology"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/etec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edittext"
+
+                    android:padding="10dp"
+                    android:textSize="28sp"
+                    android:drawableLeft="@drawable/baseline_lightbulb_24"
+                    android:ems="10"
+                    android:hint="Enter the technology"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/org"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"
+                    android:text="Organisation"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:id="@+id/eorg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/baseline_place_24"
+
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Enter org. name"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+
+                android:text="Submit"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </ScrollView>
+

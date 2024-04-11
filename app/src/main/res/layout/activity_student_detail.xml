@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/g"
+    tools:context=".student_detail">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="15dp"
+
+        android:text="Industrial Training Details "
+
+        android:textSize="38sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:paddingTop="22dp"
+        android:text="1st year IT deatail"
+        android:textSize="27sp"
+        app:cornerRadius="1dp" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:paddingTop="22dp"
+        android:text="2nd year IT deatail"
+        android:textSize="27sp"
+        app:cornerRadius="1dp" />
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:paddingTop="22dp"
+        android:text="3rd year IT deatail"
+        android:textSize="27sp"
+        app:cornerRadius="1dp" />
+
+
+</LinearLayout>
