@@ -5,25 +5,29 @@ import java.io.Serializable;
 public class itemlist implements Serializable {
 
  String name,roll;
- String phone,mode,organisation,url, sec,proj,tech;
+
+ String mode,organisation,url, sec,project,technology;
 
     public itemlist() {
     }
 
-    public itemlist(String name, String roll, String phone, String mode, String organisation, String url, String sec, String proj, String tech) {
+    public itemlist(String name, String roll, String mode, String organisation, String url, String sec, String project, String technology) {
         this.name = name;
         this.roll = roll;
-        this.phone = phone;
         this.mode = mode;
         this.organisation = organisation;
         this.url = url;
         this.sec = sec;
-        this.tech = tech;
-        this.proj = proj;
-//        this.duration = duration;
+        this.technology = technology;
+        this.project = project;
 
     }
-
+    public String getTechnology() {
+        return technology;
+    }
+    public void setTechnology(String technology) {
+        this.technology = technology;
+    }
     public String getName() {
         return name;
     }
@@ -39,15 +43,6 @@ public class itemlist implements Serializable {
     public void setRoll(String roll) {
         this.roll = roll;
     }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     public String getMode() {
         return mode;
     }
@@ -80,27 +75,10 @@ public class itemlist implements Serializable {
         this.sec = sec;
     }
 
-    public String getProj() {
-        return proj;
+    public String getProject() {
+        return project;
     }
-
-    public void setProj(String proj) {
-        this.proj = proj;
-    }
-
-//    public String getDuration() {
-//        return duration;
-//    }
-//
-//    public void setDuration(String duration) {
-//        this.duration = duration;
-//    }
-
-    public String getTech() {
-        return tech;
-    }
-
-    public void setTech(String tech) {
-        this.tech = tech;
+    public void setProject(String project) {
+        this.project = project;
     }
 }

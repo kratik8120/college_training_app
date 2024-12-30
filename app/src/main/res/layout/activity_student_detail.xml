@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     android:background="@drawable/g"
     tools:context=".student_detail">
 
@@ -12,59 +13,54 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="300dp"
-        android:layout_height="180dp"
-        android:layout_margin="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:gravity="center"
+        android:layout_marginTop="130dp"
         android:padding="15dp"
-
-        android:text="Industrial Training Details "
-
-        android:textSize="38sp"
+        android:layout_marginBottom="10dp"
+        android:text="Training Details "
+        android:textSize="29sp"
         android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="350dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
+      android:layout_gravity="center"
         android:padding="15dp"
         android:paddingTop="22dp"
-        android:text="1st year IT deatail"
-        android:textSize="27sp"
+        android:text="1st year IT detail"
+        android:layout_marginTop="10dp"
+
+        android:textSize="25sp"
         app:cornerRadius="1dp" />
 
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="350dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:padding="15dp"
         android:paddingTop="22dp"
-        android:text="2nd year IT deatail"
-        android:textSize="27sp"
+        android:layout_marginTop="10dp"
+
+        android:text="2nd year IT detail"
+        android:textSize="25sp"
         app:cornerRadius="1dp" />
 
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="350dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:padding="15dp"
+        android:layout_marginTop="10dp"
         android:paddingTop="22dp"
-        android:text="3rd year IT deatail"
-        android:textSize="27sp"
+        android:text="3rd year IT detail"
+        android:textSize="25sp"
         app:cornerRadius="1dp" />
 
 

@@ -44,29 +44,33 @@ public class thirdyear extends AppCompatActivity {
                 sec=findViewById(R.id.sec);
 //                duration=findViewById(R.id.Duration);
                 organisation=findViewById(R.id.org);
-                technology=findViewById(R.id.t);
+//                technology=findViewById(R.id.t);
                 url=findViewById(R.id.url);
                 phoneno=findViewById(R.id.phone);
-                project=findViewById(R.id.ppp);
+//                project=findViewById(R.id.pp);
                 mode=findViewById(R.id.mode);
                 roll=findViewById(R.id.roll);
                 ename=findViewById(R.id.ename);
                 esec=findViewById(R.id.esec);
                 eduration=findViewById(R.id.enterduration);
                 eorg=findViewById(R.id.eorg);
-              eproj=findViewById(R.id.eppp);
+//              eproj=findViewById(R.id.eppp);
                 eurl=findViewById(R.id.eurl);
                 ephone=findViewById(R.id.ephone);
-                etec=findViewById(R.id.e);
+//                etec=findViewById(R.id.tt);
                 emode=findViewById(R.id.emode);
                 eroll=findViewById(R.id.eroll);
                 b=FirebaseFirestore.getInstance();
 
-//        Intent intent=getIntent();
-//        String name1=intent.getStringExtra("selectedStudent");
-//        name.setText(name1);
-//        String roll=intent.getStringExtra("selectedStudent");
-
+//        eurl.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                String imageUrl=eurl.getText().toString();
+//                Intent i=new Intent(thirdyear.this,webview.class);
+//                i.putExtra("imageUrl", imageUrl);
+//                startActivity(i);
+//            }
+//        });
         Intent intent = getIntent();
         if (intent != null) {
             itemlist selectedStudent = (itemlist) intent.getSerializableExtra("selectedStudent");
@@ -76,10 +80,10 @@ public class thirdyear extends AppCompatActivity {
                 ename.setText(selectedStudent.getName());
                 eroll.setText(selectedStudent.getRoll());
                 esec.setText(selectedStudent.getSec());
-                ephone.setText(selectedStudent.getPhone());
-                eproj.setText(selectedStudent.getProj());
+//                ephone.setText(selectedStudent.getPhoneno());
+               eproj.setText(selectedStudent.getProject());
                 eorg.setText(selectedStudent.getOrganisation());
-                etec.setText(selectedStudent.getTech());
+                etec.setText(selectedStudent.getTechnology());
                 emode.setText(selectedStudent.getMode());
                 eurl.setText(selectedStudent.getUrl());
             }

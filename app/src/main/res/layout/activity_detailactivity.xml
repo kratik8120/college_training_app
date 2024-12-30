@@ -27,13 +27,4 @@
         android:hint="roll"
         android:padding="10dp"
         android:textSize="29sp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-android:hint="phone"
-        android:gravity="center"
-        android:padding="10dp"
-        android:textSize="29sp" />
 </LinearLayout>

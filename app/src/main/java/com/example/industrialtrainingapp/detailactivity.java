@@ -36,7 +36,7 @@ public class detailactivity extends AppCompatActivity {
         setContentView(R.layout.activity_detailactivity);
         n=findViewById(R.id.textView6);
         r=findViewById(R.id.textView7);
-        p=findViewById(R.id.textView10);
+
 
     }
 }

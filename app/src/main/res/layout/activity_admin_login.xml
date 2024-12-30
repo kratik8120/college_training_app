@@ -8,22 +8,30 @@
     android:background="@drawable/g"
     tools:context=".Admin_login">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LOGIN"
+
+        android:layout_marginTop="100dp"
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
-        android:layout_marginTop="135dp"
         android:text="Username"
+        android:layout_marginTop="30dp"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="27sp" />
 
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:layout_marginLeft="55dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="9dp"
         android:background="@drawable/edittext"
         android:drawableStart="@drawable/baseline_person_24"
@@ -32,7 +40,7 @@
         android:hint="Enter Your Id"
         android:inputType="text"
         android:paddingLeft="12dp"
-        android:textSize="27sp"
+        android:textSize="26sp"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
@@ -43,7 +51,7 @@
         android:layout_marginTop="25dp"
         android:text="Password"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="27sp"
         app:layout_constraintTop_toBottomOf="@+id/editTextName" />
 
 
@@ -51,7 +59,7 @@
         android:id="@+id/editTextPassword"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:layout_marginLeft="55dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="9dp"
         android:background="@drawable/edittext"
 
@@ -60,10 +68,8 @@
         android:hint="Enter the password"
         android:inputType="textPassword"
         android:paddingLeft="15dp"
-        android:textSize="27sp"
+        android:textSize="26sp"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-
 
     <Button
         android:id="@+id/buttonSubmit"
@@ -72,10 +78,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="45dp"
         android:gravity="center"
-        android:typeface="monospace"
         android:text="Submit"
-        android:textSize="30sp"
-
-        />
+        android:textSize="27sp" />
 
 </LinearLayout>

@@ -77,21 +77,8 @@ public class Recycler extends AppCompatActivity   {
         {
             if (item.getName().toLowerCase().contains(searchTextLower) ||
                     item.getRoll().toLowerCase().contains(searchTextLower))
-//                    String.valueOf(item.getDuration()).toLowerCase().contains(searchTextLower)) {
                 filteredList.add(item);
 
-            // in this all  item's name,is converted to lowercase,
-            // contains the search text (also converted to lowercase).
-            // it means that kratik is converted to lower case
-            //and agr apn searchview me k likhte hai jo ki lower case me hai to vo sabhi data ko jo k se start
-            // hote hai unko ek list me le aaega
-//            if(item.getName().toLowerCase().contains(text.toLowerCase())||item.getRoll().toLowerCase().contains(text.toLowerCase())) {
-//                String durationString = String.valueOf(item.getDuration());
-//                if (durationString.toLowerCase().contains(text.toLowerCase()) || item.getRoll().toLowerCase().contains(text.toLowerCase())) {
-//                    // and agr data mil jata hai to vo unsabko filtered listme add kar dega
-//                    filteredList.add(item);
-//                }
-//            }
         }
         if(filteredList.isEmpty()){
             Toast.makeText(this, "no data", Toast.LENGTH_SHORT).show();
@@ -115,13 +102,13 @@ public class Recycler extends AppCompatActivity   {
             }
             for(DocumentChange dc : Objects.requireNonNull(value).getDocumentChanges()){
                 if(dc.getType()==DocumentChange.Type.ADDED){
+                    DocumentSnapshot documentSnapshot = dc.getDocument();
+                    Log.d(TAG, "DocumentSnapshot: " + documentSnapshot.getData());
                     itemlist newItem = dc.getDocument().toObject(itemlist.class);
-//                    newItem.setDuration(String.valueOf(dc.getDocument().get("duration")));
                     list.add(newItem);
                 }
                 adapter.notifyDataSetChanged();
                 Log.d(TAG, "Data loaded successfully");
-
             }
         });
 
